@@ -1,0 +1,22 @@
+name: chd  # environment name
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - astropy
+  - matplotlib
+  - numpy
+  - pathlib
+  - pandas
+  - pip
+  - pymdown-extensions
+  - python == 3.8.16
+  - scipy
+  - sunpy == 4.1.2
+  - notebook
+  - pip:
+    - pfsspy
+    - astrospice==0.2.0
+    - heliopy
+    - streamtracer
+    - pyhdf
